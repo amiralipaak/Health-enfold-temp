@@ -1,0 +1,204 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@400;500&family=Open+Sans:wght@300&display=swap");
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.header {
+  width: 100%;
+  height: 800px;
+  position: relative;
+  background-color: black;
+}
+/* transparency of the header's background image*/
+.header::before {
+  content: "";
+  background: url(/images/yoga-girl-wallpaper-1.jpg) no-repeat center;
+  background-size: cover;
+
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  opacity: 0.7;
+}
+.navbar {
+  position: relative;
+  width: 100%;
+  height: 90px;
+}
+.logo {
+  width: 40%;
+  height: 80px;
+  margin-top: 14px;
+  margin-left: -40px;
+  background: url(/images/logo-1.png) no-repeat center;
+  float: left;
+  background-size: 55%;
+  filter: brightness(0%) invert(0.9);
+}
+navbar > ul {
+  list-style: none;
+}
+ul {
+  list-style: none;
+}
+ul li a {
+  text-decoration: none;
+}
+.navbar > ul li {
+  padding: 10px;
+  float: right;
+  margin-top: 32px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 650;
+}
+ul li a {
+  color: white;
+}
+ul li a:hover {
+  color: #e4e0da;
+}
+.contact {
+  border: white solid 0.5px;
+}
+.search-icon-png {
+  width: 15px;
+  height: 15px;
+  filter: brightness(0%) invert(0.9);
+}
+/* the line around contacts*/
+.navbar > ul li:first-child {
+  margin-right: 100px;
+}
+.navbar > ul li ul li {
+  display: none;
+}
+.slogan {
+  position: relative;
+  width: 60%;
+  height: 500px;
+  margin: auto;
+  color: white;
+}
+.hi {
+  margin: auto;
+  padding: 150px 45px 25px 45px;
+  width: 100%;
+  height: 40%;
+  font-size: 75px;
+  font-family: "Caveat", cursive;
+  text-align: center;
+}
+.your-new {
+  margin: auto;
+  padding: 45px;
+  font-size: 25px;
+  text-align: center;
+  font-family: "open sans";
+  font-weight: 900;
+}
+/* a way to center two buttons with a container*/
+.container-button {
+  text-align: center;
+}
+.button {
+  margin: 1px 10px;
+  padding: 10px 35px;
+  text-align: center;
+  border-radius: 20px;
+  border: 3px solid;
+  position: relative;
+}
+.who {
+  background: rgba(0, 0, 0, 0.2);
+  color: white;
+}
+.what {
+  background-color: #6a882d;
+  color: #e4e0da;
+  border-color: transparent;
+}
+.divider {
+  width: 100%;
+  height: 15px;
+  background: linear-gradient(
+    to right,
+    #719430 25%,
+    #92bb46 25%,
+    #92bb46 50%,
+    #acd464 50%,
+    #acd464 75%,
+    #e1fbb2 75%
+  );
+}
+.hello-about {
+  width: 100%;
+  height: 600px;
+}
+h2{
+  font-family: caveat;
+}
+/*the whole left side of this div*/
+.hello {
+  width: 50%;
+  height: 100%;
+  float: left;
+  background-color: white;
+  text-align: center;
+  padding-top: 100px;
+  font-size: 48px;
+ 
+}
+.hello-and-welcome {
+  font-weight: 200;
+  color: #222222;
+  padding-right: 85px;
+}
+.and{
+  color: #739634;
+}
+.lorem {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  color: #9C9C9C;
+  text-align: left;
+  margin: 50px 85px 15px 85px;
+
+}
+.montes{
+  color: #739634;
+}
+.donec{
+  text-align: left;
+  font-family: caveat;
+  color: #719430;
+  font-size: 29px;
+  margin: 50px 85px 15px 85px;
+}
+/*the whole right side of this div*/
+.about {
+  width: 50%;
+  height: 100%;
+  float: right;
+  position: relative;
+  background: black;
+}
+.about::before{
+    content: "";
+    background: url(images/woman-enjoying-nature-outdoors-m-1-845x684.jpg) no-repeat right;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    opacity: 0.7;
+  }
+.about-me {
+  position: relative;
+  color: white;
+  
+}
