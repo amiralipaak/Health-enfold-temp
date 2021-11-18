@@ -200,5 +200,25 @@ h2{
 .about-me {
   position: relative;
   color: white;
-  
+  font-size: 77px;
+  font-weight: 200;
+  margin: 90px 85px 15px 85px;
+}
+.donec-2 {
+  font-family:"Open Sans", sans-serif;
+  position: relative;
+  text-align: left;
+  margin: 40px 85px 15px 85px;
+  color: white;
+  padding-right: 300px;
+}
+.more-about-me-btn {
+  background: rgba(0, 0, 0, 0.2);
+  color: white;
+  margin: 150px 85px 15px 85px;
+  padding: 10px 35px;
+  text-align: center;
+  border-radius: 20px;
+  border: 3px solid;
+  position: relative;
 }
